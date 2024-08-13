@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(205, 240, 246);
+    color: black;
+
+}
+header{
+    background-color: rgb(231, 246, 247);
+    padding: 20px;
+}
+nav{
+    padding-top: 10px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+nav ul li{
+    display: inline;
+    padding-right: 20px;
+    color: purple;
+   
+    
+}
+nav ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(0, 40, 133);
+    text-decoration: none;
+    font-weight: 550;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: large;
+
+}
+nav ul li a:hover{
+    background-color: rgb(165, 222, 222);
+
+}
+
+#banner{
+    padding: 300px;
+    background-image: linear-gradient(to bottom, rgba(198, 231, 255, 0.8), rgba(52, 137, 53, 0.4)),
+    url(images/image1.jpeg);
+    background-size: cover;
+    /* background-image: url(images/image1.jpeg); */
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+#banner p{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+
+.b1{
+    background-color: rgb(146, 201, 238);
+    border: none;
+    border-radius: 10px;
+    color: rgb(0, 40, 133);
+    padding: 10px 20px;
+    font-family: Arial, sans-serif; /* Font family */
+    cursor: pointer;           /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.b1:hover {
+    background-color: #64989d; /* Darker blue background on hover */
+    transform: scale(1.05);    /* Slightly scale up the button on hover */
+  }
+
+
+#causes{
+    padding: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+#causes h2{
+    width: 100%;
+    text-align: center; /* Center the heading text */
+    /* margin-bottom: 10px; */
+    color: rgb(0, 40, 133);;
+}
+
+  .cause {
+
+    background-color: #ffffff; /* Background color for each cause */
+    border: 1px solid #ddd;   /* Light border for separation */
+    border-radius: 15px;       /* Rounded corners */
+    flex: 1 1 calc(33.33% -20px);
+    width: 30%;        /* Adjust as needed */
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden; 
+    padding: 20px; 
+    height: 350px;       /* Ensures content stays within rounded corners */
+  }
+  
+  .cause img {
+    width: 100%;
+    height: 200px;
+   object-fit: cover;
+   border-radius: 15px;
+  }
+  
+  .cause p {
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+
+
+#about{
+    padding: 20px;
+}
+#about h2{
+    width: 100%;
+    text-align: center; /* Center the heading text */
+    margin-bottom: 20px;
+    
+}
+#about h3{
+    width: 100%;
+    text-align: center; /* Center the heading text */
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none; /* Removes the default border */
+    height: 2px; /* Sets the thickness of the line */
+    background-color: #b8dde1; /* Sets the color of the line */
+    margin: 20px 0; /* Adds spacing above and below the line */
+    width: 80%; /* Adjusts the width of the line */
+    max-width: 800px; /* Sets a maximum width for larger screens */
+    margin-left: auto; /* Center align horizontally */
+    margin-right: auto; /* Center align horizontally */
+}
+
+#contact h1{
+    width: 100%;
+    text-align: center; /* Center the heading text */
+    margin-bottom: 20px;
+}
+#div1{
+    padding: 30px;
+    border: 1px solid #aac8da;   /* Light border for separation */
+    border-radius: 15px;       /* Rounded corners */
+    flex: 1 1 calc(33.33% -20px);
+}
+
+#contact{
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+
+#contact b1{
+    margin: auto 0;
+}
+footer{
+    background-color: rgb(231, 246, 247);
+    padding: 30px;
+    text-align: center;
+    /* position: fixed;
+    bottom: 0; */
+    width: auto;
+
+}
